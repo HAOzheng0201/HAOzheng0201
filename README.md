@@ -1,78 +1,110 @@
-<div align="center">
+<p align="center">
+  <img src="assets/embodied-intelligence-header.png" alt="Embodied intelligence: from perception and world modeling to action" width="100%" />
+</p>
 
-# Hao Zheng | 郝征
+<h1 align="center">Hao Zheng · 郝征</h1>
 
-**Graduate Student in Pattern Recognition and Intelligent Systems**
+<p align="center">
+  <strong>Graduate Student in Pattern Recognition and Intelligent Systems</strong><br/>
+  Shenyang Institute of Automation, Chinese Academy of Sciences · University of Chinese Academy of Sciences
+</p>
 
-[Shenyang Institute of Automation, Chinese Academy of Sciences](https://www.sia.cas.cn/) · [University of Chinese Academy of Sciences](https://www.ucas.ac.cn/)
+<p align="center">
+  <a href="mailto:hz13644075225@163.com">Email</a>
+  ·
+  <a href="#research-interests">Research</a>
+  ·
+  <a href="#中文简介">中文简介</a>
+</p>
 
-[Email](mailto:hz13644075225@163.com) · [English](#about-me) · [中文](#中文简介)
-
-</div>
-
----
+> **My goal is to help robots develop human-like intelligence—so they can understand the world, reason about unfamiliar situations, and help people solve difficult real-world problems.**
 
 ## About Me
 
-I am a graduate student in **Pattern Recognition and Intelligent Systems** at the **Shenyang Institute of Automation, Chinese Academy of Sciences**, affiliated with the **University of Chinese Academy of Sciences**. I am advised by **Zhi Han** in the institute's Intelligence Group.
+I am a graduate student in **Pattern Recognition and Intelligent Systems** at the **Shenyang Institute of Automation, Chinese Academy of Sciences (SIA, CAS)**, affiliated with the **University of Chinese Academy of Sciences (UCAS)**. I am advised by **Zhi Han** in the institute's Intelligence Group.
 
-Before beginning my graduate studies, I studied **Robotics Engineering** at the **College of Artificial Intelligence and Robotics, Hunan University**.
+I received my undergraduate education in **Robotics Engineering** from the **College of Artificial Intelligence and Robotics, Hunan University**. My interests sit at the intersection of robotics, multimodal foundation models, and efficient machine learning.
 
-My research interests lie at the intersection of robotics and artificial intelligence. I am particularly interested in building embodied agents that can perceive their surroundings, understand language, reason about future states, and act efficiently in the physical world.
+- 🔭 Exploring **embodied intelligence, VLA/VLN, world models, and efficient foundation models**
+- 🧠 Working toward research that connects **perception, language, prediction, planning, and action**
+- 📝 Aiming to produce rigorous, reproducible work and publish in a leading venue
+- 🤝 Open to **research collaboration and internship opportunities** in robotics and large-scale AI models
 
 ## Research Interests
 
-- **Embodied Intelligence** — perception, reasoning, planning, and control for general-purpose robotic agents.
-- **Vision-Language-Action Models** — unified multimodal policies that connect visual observations and language instructions with robot actions.
-- **Vision-and-Language Navigation** — instruction following, spatial reasoning, semantic mapping, and long-horizon navigation in continuous environments.
-- **World Models** — learning environment dynamics and predictive representations for planning, decision-making, and robot control.
-- **Efficient AI Models** — model compression, knowledge distillation, pruning, quantization, parameter-efficient adaptation, and deployment on resource-constrained robots.
+| Area | Questions I care about |
+| --- | --- |
+| **Embodied Intelligence** | How can agents perceive, reason, plan, and adapt in open physical environments? |
+| **Vision-Language-Action Models** | How can visual observations and language instructions be grounded into reliable robot actions? |
+| **Vision-and-Language Navigation** | How can robots follow long-horizon instructions through spatial reasoning, memory, and semantic mapping? |
+| **World Models** | How can learned dynamics and predictive representations support planning, control, and decision-making? |
+| **Efficient AI** | How can compression, distillation, pruning, quantization, and efficient adaptation make foundation models practical on robots? |
 
-## Current Focus
+## Current Exploration
 
-I am currently exploring:
+I am currently surveying and reproducing work on:
 
-- robust language-guided navigation in complex and dynamic environments;
-- the integration of vision-language models, action policies, and world models for embodied decision-making;
-- efficient multimodal models for real-time deployment on robotic platforms.
+- lightweight and efficient large models;
+- embodied agents and multimodal robot learning;
+- world models for prediction and planning;
+- VLA policies and language-guided navigation.
+
+My near-term goal is to identify a meaningful research problem at the intersection of these areas and develop it into a high-quality paper.
 
 ## Education
 
-| Stage | Institution | Field |
+| Stage | Institution | Program |
 | --- | --- | --- |
-| Graduate | University of Chinese Academy of Sciences / Shenyang Institute of Automation, CAS | Pattern Recognition and Intelligent Systems |
-| Undergraduate | Hunan University, College of Artificial Intelligence and Robotics | Robotics Engineering |
+| **Graduate** | University of Chinese Academy of Sciences / Shenyang Institute of Automation, CAS | Pattern Recognition and Intelligent Systems |
+| **Undergraduate** | Hunan University, College of Artificial Intelligence and Robotics | Robotics Engineering |
 
-## Contact
+## Technical Toolbox
 
-I welcome academic discussions on embodied intelligence, VLA, VLN, world models, and efficient robotic learning.
+`Python` · `PyTorch` · `MATLAB` · `Linux` · `Transformers` · `ROS`
 
-- **Email:** [hz13644075225@163.com](mailto:hz13644075225@163.com)
+## Honors
+
+- **Second-Class Academic Scholarship**, Hunan University — awarded twice
+- **Outstanding Graduation Intern**, Hunan University
+- **Third Prize**, Hunan University Mathematics Competition for Non-Mathematics Majors
+
+## Beyond Research
+
+Outside the lab, I enjoy **basketball, strength training, music, history, films, and travel**. These interests keep me curious about people, culture, and the world that intelligent machines will eventually need to understand.
+
+## Looking Ahead
+
+I hope to grow into a highly skilled researcher and engineer in **robotics and large-scale AI models**, and to contribute to technologies that move intelligent systems from digital environments into the physical world.
+
+I am currently open to:
+
+- research discussions and collaboration;
+- robotics, embodied AI, and large-model internships;
+- open-source projects aligned with my research interests.
+
+📫 **Contact:** [hz13644075225@163.com](mailto:hz13644075225@163.com)
 
 ---
 
-## 中文简介
+<details>
+<summary><strong>中文简介</strong></summary>
 
-我目前就读于**中国科学院大学—中国科学院沈阳自动化研究所**，攻读**模式识别与智能系统**专业研究生，导师为**韩志**，所在团队为沈阳自动化所智能组。
+<br/>
 
-本科就读于**湖南大学人工智能与机器人学院机器人工程专业**。我的研究兴趣集中在机器人学与人工智能的交叉领域，希望构建能够感知环境、理解语言、推演未来状态并在物理世界中高效行动的具身智能体。
+我目前就读于**中国科学院大学—中国科学院沈阳自动化研究所**，攻读**模式识别与智能系统**专业研究生，导师为**韩志**，所在团队为沈阳自动化所智能组。本科就读于**湖南大学人工智能与机器人学院机器人工程专业**。
 
-### 研究方向
+我的目标是推动机器人逐步拥有接近人类的感知、理解、推理与行动能力，使其能够适应复杂环境，并帮助人们解决现实世界中的困难问题。
 
-- **具身智能**：面向通用机器人智能体的环境感知、推理、规划与控制。
-- **视觉—语言—动作模型（VLA）**：研究视觉观测、语言指令与机器人动作之间的统一建模与策略学习。
-- **视觉语言导航（VLN）**：关注指令跟随、空间推理、语义地图以及连续环境中的长时序导航。
-- **世界模型**：学习环境动力学与预测表征，服务于具身智能体的规划、决策和控制。
-- **模型轻量化与高效部署**：关注知识蒸馏、模型剪枝、量化、参数高效适配以及资源受限机器人平台上的实时推理。
+目前主要调研**大模型轻量化、具身智能、世界模型、视觉—语言—动作模型（VLA）和视觉语言导航（VLN）**。近期目标是找到具有实际意义的研究问题，完成严谨、可复现的研究工作，并在该领域发表高水平论文。
 
-### 当前关注
+技术工具包括：`Python`、`PyTorch`、`MATLAB`、`Linux`、`Transformers` 和 `ROS`。
 
-- 复杂动态环境中的鲁棒语言引导导航；
-- 视觉语言模型、动作策略与世界模型的融合；
-- 面向机器人端侧实时部署的高效多模态模型。
+曾两次获得**湖南大学二等学业奖学金**，并获评**湖南大学优秀毕业实习生**、获得**湖南大学非数学类校级数学竞赛三等奖**。
 
-### 联系方式
+未来希望进入机器人或大模型相关领域的大型企业，成长为具备扎实研究能力和工程能力的高水平技术人才。目前愿意参与相关方向的**科研合作、开源项目和实习机会**。
 
-欢迎就具身智能、VLA、VLN、世界模型及高效机器人学习等方向进行学术交流。
+科研之外，我喜欢**篮球、健身、音乐、历史、电影和旅行**。
 
-- **邮箱：** [hz13644075225@163.com](mailto:hz13644075225@163.com)
+📫 **邮箱：** [hz13644075225@163.com](mailto:hz13644075225@163.com)
+
+</details>
