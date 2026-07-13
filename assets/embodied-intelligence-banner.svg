@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="220" viewBox="0 0 1200 220" role="img" aria-labelledby="title desc">
+  <title id="title">Embodied intelligence research banner</title>
+  <desc id="desc">A minimal blue, white, and gray diagram showing perception, world modeling, and robotic action.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f8fafc"/>
+      <stop offset="0.5" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#f1f5f9"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1d4ed8"/>
+      <stop offset="1" stop-color="#60a5fa"/>
+    </linearGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8"/>
+    </filter>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+      <path d="M0 0L8 4L0 8Z" fill="#3b82f6"/>
+    </marker>
+  </defs>
+
+  <rect x="1" y="1" width="1198" height="218" rx="22" fill="url(#bg)" stroke="#dbeafe" stroke-width="2"/>
+  <circle cx="600" cy="110" r="92" fill="#dbeafe" opacity="0.28" filter="url(#soft)"/>
+  <path d="M120 168C320 130 412 172 600 126C780 82 910 132 1080 78" fill="none" stroke="#dbeafe" stroke-width="1.5" stroke-dasharray="5 8"/>
+
+  <!-- Perception -->
+  <g transform="translate(165 34)">
+    <circle cx="78" cy="72" r="58" fill="#ffffff" stroke="#bfdbfe" stroke-width="2"/>
+    <path d="M31 72C54 39 101 39 125 72C101 105 54 105 31 72Z" fill="#eff6ff" stroke="#2563eb" stroke-width="3"/>
+    <circle cx="78" cy="72" r="22" fill="url(#blue)"/>
+    <circle cx="78" cy="72" r="9" fill="#ffffff" opacity="0.9"/>
+    <circle cx="121" cy="30" r="5" fill="#60a5fa"/>
+    <path d="M14 116L2 128M142 19L154 7" stroke="#93c5fd" stroke-width="2"/>
+    <text x="78" y="151" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" letter-spacing="2.2" fill="#475569">PERCEPTION</text>
+  </g>
+
+  <!-- Multimodal signals -->
+  <g fill="none" stroke="#60a5fa" stroke-width="2">
+    <path d="M326 82H405" marker-end="url(#arrow)"/>
+    <path d="M326 110H405" marker-end="url(#arrow)"/>
+    <path d="M326 138H405" marker-end="url(#arrow)"/>
+  </g>
+  <g fill="#2563eb">
+    <circle cx="340" cy="82" r="4"/><circle cx="353" cy="110" r="4"/><circle cx="340" cy="138" r="4"/>
+  </g>
+
+  <!-- World model -->
+  <g transform="translate(428 25)">
+    <rect x="0" y="0" width="344" height="166" rx="26" fill="#ffffff" stroke="#bfdbfe" stroke-width="2"/>
+    <g stroke="#cbd5e1" stroke-width="1.5">
+      <path d="M64 48L126 32L182 60L240 38L286 72"/>
+      <path d="M64 48L91 103L164 126L218 96L286 72"/>
+      <path d="M126 32L164 126M182 60L91 103M182 60L218 96M240 38L218 96"/>
+    </g>
+    <g>
+      <circle cx="64" cy="48" r="9" fill="#2563eb"/>
+      <circle cx="126" cy="32" r="7" fill="#93c5fd"/>
+      <circle cx="182" cy="60" r="13" fill="url(#blue)"/>
+      <circle cx="240" cy="38" r="7" fill="#93c5fd"/>
+      <circle cx="286" cy="72" r="9" fill="#2563eb"/>
+      <circle cx="91" cy="103" r="7" fill="#60a5fa"/>
+      <circle cx="164" cy="126" r="10" fill="#2563eb"/>
+      <circle cx="218" cy="96" r="8" fill="#60a5fa"/>
+    </g>
+    <path d="M41 142C86 113 128 153 171 132C215 111 250 134 303 105" fill="none" stroke="#3b82f6" stroke-width="2" stroke-dasharray="4 5" marker-end="url(#arrow)"/>
+    <text x="172" y="158" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" letter-spacing="2.2" fill="#475569">WORLD MODEL</text>
+  </g>
+
+  <!-- Action -->
+  <path d="M790 110H862" fill="none" stroke="#3b82f6" stroke-width="2" marker-end="url(#arrow)"/>
+  <g transform="translate(871 30)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="78" cy="76" r="60" fill="#ffffff" stroke="#bfdbfe" stroke-width="2"/>
+    <path d="M30 112L55 89L70 98L90 74" stroke="#1d4ed8" stroke-width="8"/>
+    <circle cx="55" cy="89" r="9" fill="#ffffff" stroke="#2563eb" stroke-width="4"/>
+    <circle cx="90" cy="74" r="9" fill="#ffffff" stroke="#2563eb" stroke-width="4"/>
+    <path d="M96 70L111 57M98 75L117 73M95 80L109 92" stroke="#2563eb" stroke-width="5"/>
+    <rect x="113" y="64" width="18" height="18" rx="3" fill="#dbeafe" stroke="#3b82f6" stroke-width="2"/>
+    <text x="78" y="153" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" letter-spacing="2.2" fill="#475569" stroke="none">ACTION</text>
+  </g>
+
+  <!-- Feedback loop -->
+  <path d="M1018 185C891 211 339 211 214 184" fill="none" stroke="#93c5fd" stroke-width="1.5" stroke-dasharray="6 7" marker-end="url(#arrow)"/>
+</svg>
