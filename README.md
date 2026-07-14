@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/embodied-intelligence-banner.svg" alt="Embodied intelligence research: perception, world modeling, and action" width="100%" />
+</p>
+
 <div align="center">
 
 # Hao Zheng · 郝征
